@@ -1,0 +1,87 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, rgba(0, 162, 255, 0.983), black);
+    text-align: center;
+}
+header{
+    background-color:blanchedalmond;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 300px;
+    background-image: url('chicago_skyline.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    text-align: left;
+}
+footer{
+    background-color: blanchedalmond;
+    border-top: 10px solid blanchedalmond;
+    text-align: center;
+    padding: 20px;
+}
+
+article{
+    background-color: blanchedalmond;
+    margin: 0 auto 20px;
+    border: 2 px solid gray;
+    padding: 50px; 
+    width: 70%;
+    border-radius: 40px;
+}
+
+nav{
+    list-style-type: none;
+}
+
+.nav-bar, .nav-link{
+    display: inline;
+}
+
+#brand-title{
+   font-size: 40px; 
+   border: thick;
+   border-style: double;
+}
+
+
+a{
+    color: blue;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red
+}
+
+form{
+    border: 5 px double black;
+    width: 30%;
+    margin: 0 auto 20 px;
+    border-radius: 20px;
+}
+main {
+    text-align: center;
+}
+.form-label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    padding: 5px; 
+    border-radius: 5px;
+}
+
+.imag-class{
+    border-radius: 50%;
+}
